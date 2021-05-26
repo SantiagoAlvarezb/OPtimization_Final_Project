@@ -7,7 +7,7 @@ vars = [x1 x2 x3 x4 x5 x6];
 
 %Tenemos la función objetiva y conjunto de restricciones de nuestro proyecto 
 f= 0.25*x1 + 0.3*x2 + 0.35*x3 + 0.85*x4 + 0.75*x5 + 0.9*x6
-r = [-0.06*x1 - 0.14*x2 - 0.3*x3 - 0.6*x4 - 0.8*x5 - 0.9*x6 + 2750000;
+r = [-0.06*x1 - 0.14*x2 - 0.3*x3 - 0.6*x4 - 0.8*x5 - 0.9*x6 + 100000;
      x4 + x5 - 600000;
      x1 - 1500000;
      - x2 + 500000;
